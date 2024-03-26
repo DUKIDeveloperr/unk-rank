@@ -1,0 +1,661 @@
+/* .fundo {
+    background-image: url('https://cdn.discordapp.com/attachments/1026529784148271245/1221110297134370836/image.png?ex=66116295&is=65feed95&hm=f30365cbd1f5441bc1095bb0df5ea52fcf0a29178282b86210baeb7a51322e25&');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+} */
+
+.fundo {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  background: url(https://cdn.discordapp.com/attachments/1026529784148271245/1221110297134370836/image.png?ex=66116295&is=65feed95&hm=f30365cbd1f5441bc1095bb0df5ea52fcf0a29178282b86210baeb7a51322e25&);
+}
+
+
+.text1 {
+    text-align: center;
+    color: rgb(105, 255, 5);
+}
+
+
+.logo {
+   width: 80px;
+   height: 75px;
+   margin-top: 10px;
+   padding-left: 20px;
+   left: 10%;
+}
+
+.barra-escura {
+    background-color: #2e2e2e; 
+    height: 90px; 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 999; 
+}
+
+/* .comojogar {
+    font-family: 'Manrope Medium', sans-serif;
+    padding-left: 150px;
+    color: azure;
+    margin-top: -50px;
+} */
+
+.rank {
+    font-family: 'Manrope Medium', sans-serif;
+    padding-left: 150px;
+    margin-top: -50px;
+    color: rgb(132, 134, 134);
+}
+
+
+.discordtext {
+    font-family: 'Manrope Medium', sans-serif;
+    color: azure;
+    padding-left: 32%;
+    margin-top: 20px;
+}
+
+
+.discord {
+    position: absolute;
+    width: 266px;
+    height: 55px;
+    left: 1562px;
+    top: 25px;
+    
+    background: rgba(0, 255, 132, 0.38);
+    box-shadow: 0px 6px 5.8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+
+
+.discordimg {
+    width: 40px;
+    height: 32px;
+    padding-left: 10%;
+    margin-top: -38px;
+}
+
+.classificatoriatext {
+    font-family: 'Manrope Medium', sans-serif;
+    text-align: center;
+    color: #4abd63;
+    font-size: 50px;
+}
+
+.leaguetext {
+    font-family: 'Manrope Medium', sans-serif;
+    text-align: center;
+    color: rgb(33, 63, 33);
+    font-size: 50px;
+    margin-top: -35px;
+}
+
+.imgPosição {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 30%; /* Ajusta a posição verticalmente para o meio */
+    left: 5%; /* Ajusta a posição horizontalmente para o meio */
+    width: 35;
+    height: 31;
+}
+
+.textPosição {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 29%; /* Ajusta a posição verticalmente para o meio */
+    left: 7%; /* Ajusta a posição horizontalmente para o meio */
+    font-family: 'Manrope Medium', sans-serif;
+    width: 35;
+    height: 31;
+    color: snow;
+}
+
+.imgEquipes {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 30%; /* Ajusta a posição verticalmente para o meio */
+    left: 14%; /* Ajusta a posição horizontalmente para o meio */
+    width: 35;
+    height: 31;
+}
+
+.textEquipes {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 29%; /* Ajusta a posição verticalmente para o meio */
+    left: 16%; /* Ajusta a posição horizontalmente para o meio */
+    font-family: 'Manrope Medium', sans-serif;
+    width: 35;
+    height: 31;
+    color: snow;
+}
+
+.imgPontos {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 30%; /* Ajusta a posição verticalmente para o meio */
+    left: 45%; /* Ajusta a posição horizontalmente para o meio */
+    width: 35;
+    height: 31;
+}
+
+.textPontos {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 29%; /* Ajusta a posição verticalmente para o meio */
+    left: 47%; /* Ajusta a posição horizontalmente para o meio */
+    font-family: 'Manrope Medium', sans-serif;
+    width: 35;
+    height: 31;
+    color: snow;
+}
+
+.imgVitórias {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 30%; /* Ajusta a posição verticalmente para o meio */
+    left: 55%; /* Ajusta a posição horizontalmente para o meio */
+    width: 35;
+    height: 31;
+}
+
+.textVitórias {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 29%; /* Ajusta a posição verticalmente para o meio */
+    left: 57%; /* Ajusta a posição horizontalmente para o meio */
+    font-family: 'Manrope Medium', sans-serif;
+    width: 35;
+    height: 31;
+    color: snow;
+}
+
+.imgAbates {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 30%; /* Ajusta a posição verticalmente para o meio */
+    left: 65%; /* Ajusta a posição horizontalmente para o meio */
+    width: 35;
+    height: 31;
+}
+
+.textAbates {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 29%; /* Ajusta a posição verticalmente para o meio */
+    left: 67%; /* Ajusta a posição horizontalmente para o meio */
+    font-family: 'Manrope Medium', sans-serif;
+    width: 35;
+    height: 31;
+    color: snow;
+}
+
+.imgStatus {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 30%; /* Ajusta a posição verticalmente para o meio */
+    left: 75%; /* Ajusta a posição horizontalmente para o meio */
+    width: 35;
+    height: 31;
+}
+
+.textStatus{
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 29%; /* Ajusta a posição verticalmente para o meio */
+    left: 77%; /* Ajusta a posição horizontalmente para o meio */
+    font-family: 'Manrope Medium', sans-serif;
+    width: 35;
+    height: 31;
+    color: snow;
+}
+
+.direitos {
+    font-family: 'Manrope Medium', sans-serif;
+    position: fixed; /* Posiciona o texto de forma fixa na tela */
+    bottom: 0; /* Ajusta a posição verticalmente para o fundo */
+    left: 5%; /* Alinha o texto à esquerda */
+    width: 100%; /* Define a largura do texto para ocupar toda a largura da tela */
+    color: #222121;
+}
+
+.imginstagram {
+    width: 52;
+    height: 52;
+    position: fixed; /* Posiciona o texto de forma fixa na tela */
+    bottom: 0; /* Ajusta a posição verticalmente para o fundo */
+    left: 80%; /* Alinha o texto à esquerda */
+}
+
+.imgtiktok {
+    width: 52;
+    height: 52;
+    position: fixed; /* Posiciona o texto de forma fixa na tela */
+    bottom: 0; /* Ajusta a posição verticalmente para o fundo */
+    left: 84%; /* Alinha o texto à esquerda */
+}
+
+.imgtwitch {
+    width: 52;
+    height: 52;
+    position: fixed; /* Posiciona o texto de forma fixa na tela */
+    bottom: 0; /* Ajusta a posição verticalmente para o fundo */
+    left: 88%; /* Alinha o texto à esquerda */
+}
+
+.imgtwiter {
+    width: 52;
+    height: 52;
+    position: fixed; /* Posiciona o texto de forma fixa na tela */
+    bottom: 0; /* Ajusta a posição verticalmente para o fundo */
+    left: 92%; /* Alinha o texto à esquerda */
+}
+
+.fundoranks1 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 35%; /* Ajusta a posição verticalmente para o meio */
+    left: 5%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+}
+
+.fundoranks2 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 41%; /* Ajusta a posição verticalmente para o meio */
+    left: 5%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+}
+
+.fundoranks3 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 47%; /* Ajusta a posição verticalmente para o meio */
+    left: 5%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+}
+
+.fundoranks4 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 53%; /* Ajusta a posição verticalmente para o meio */
+    left: 5%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+}
+
+.fundoranks5 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 59%; /* Ajusta a posição verticalmente para o meio */
+    left: 5%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+}
+
+.numposição1 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 35%; /* Ajusta a posição verticalmente para o meio */
+    left: 7%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.numposição2 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 41%; /* Ajusta a posição verticalmente para o meio */
+    left: 7%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.numposição3 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 47%; /* Ajusta a posição verticalmente para o meio */
+    left: 7%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.numposição4 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 53%; /* Ajusta a posição verticalmente para o meio */
+    left: 7%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.numposição5 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 59%; /* Ajusta a posição verticalmente para o meio */
+    left: 7%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.logoequipe1 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 336px; /* Ajusta a posição verticalmente para o meio */
+    left: 10%; /* Ajusta a posição horizontalmente para o meio */
+    width: 46px;
+    height: 39px;
+}
+
+.logoequipe2 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 393px; /* Ajusta a posição verticalmente para o meio */
+    left: 10%; /* Ajusta a posição horizontalmente para o meio */
+    width: 46px;
+    height: 39px;
+}
+
+.logoequipe3 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 450px; /* Ajusta a posição verticalmente para o meio */
+    left: 10%; /* Ajusta a posição horizontalmente para o meio */
+    width: 46px;
+    height: 39px;
+}
+
+.logoequipe4 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 507px; /* Ajusta a posição verticalmente para o meio */
+    left: 10%; /* Ajusta a posição horizontalmente para o meio */
+    width: 46px;
+    height: 39px;
+}
+
+.logoequipe5 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 561px; /* Ajusta a posição verticalmente para o meio */
+    left: 10%; /* Ajusta a posição horizontalmente para o meio */
+    width: 46px;
+    height: 39px;
+}
+
+.eqp1 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 35%; /* Ajusta a posição verticalmente para o meio */
+    left: 14%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.eqp2 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 41%; /* Ajusta a posição verticalmente para o meio */
+    left: 14%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.eqp3 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 47%; /* Ajusta a posição verticalmente para o meio */
+    left: 14%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.eqp4 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 53%; /* Ajusta a posição verticalmente para o meio */
+    left: 14%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.eqp5 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 59%; /* Ajusta a posição verticalmente para o meio */
+    left: 14%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.ponto1 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 35%; /* Ajusta a posição verticalmente para o meio */
+    left: 47%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.ponto2 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 41%; /* Ajusta a posição verticalmente para o meio */
+    left: 47%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.ponto3 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 47%; /* Ajusta a posição verticalmente para o meio */
+    left: 47%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.ponto4 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 53%; /* Ajusta a posição verticalmente para o meio */
+    left: 47%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63; 
+}
+
+.ponto5 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 59%; /* Ajusta a posição verticalmente para o meio */
+    left: 47%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.vitoria1 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 35%; /* Ajusta a posição verticalmente para o meio */
+    left: 58%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.vitoria2 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 41%; /* Ajusta a posição verticalmente para o meio */
+    left: 58%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.vitoria3 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 47%; /* Ajusta a posição verticalmente para o meio */
+    left: 58%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.vitoria4 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 53%; /* Ajusta a posição verticalmente para o meio */
+    left: 58%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63; 
+}
+
+.vitoria5 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 59%; /* Ajusta a posição verticalmente para o meio */
+    left: 58%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.abate1 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 35%; /* Ajusta a posição verticalmente para o meio */
+    left: 67%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.abate2 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 41%; /* Ajusta a posição verticalmente para o meio */
+    left: 67%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+
+.abate3 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 47%; /* Ajusta a posição verticalmente para o meio */
+    left: 67%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.abate4 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 53%; /* Ajusta a posição verticalmente para o meio */
+    left: 67%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63; 
+}
+
+.abate5 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 59%; /* Ajusta a posição verticalmente para o meio */
+    left: 67%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.classificado1 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 35%; /* Ajusta a posição verticalmente para o meio */
+    left: 75%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.classificado2 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 41%; /* Ajusta a posição verticalmente para o meio */
+    left: 75%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.classificado3 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 47%; /* Ajusta a posição verticalmente para o meio */
+    left: 75%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+.classificado4 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 53%; /* Ajusta a posição verticalmente para o meio */
+    left: 75%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63; 
+}
+
+.classificado5 {
+    position: fixed; /* Posiciona a imagem de forma fixa na tela */
+    top: 59%; /* Ajusta a posição verticalmente para o meio */
+    left: 75%; /* Ajusta a posição horizontalmente para o meio */
+    width: 82%;
+    height: 45px;
+    font-family: 'Manrope Medium', sans-serif;
+    color: #4abd63;
+}
+
+::-webkit-scrollbar {
+    width: 13px; /* Largura da barra de rolagem */
+    height: 4px; /* Altura da barra de rolagem */
+    background-color: rgba(4, 83, 28, 0.788); /* Cor de fundo */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(61, 217, 142, 0.6); /* Cor do "thumb" */
+    border-radius: 14px; /* Raio de borda do "thumb" */
+}
+
+
+
+/* Media query para telas menores que 600px */
+@media only screen and (max-width: 600px) {
+    /* Estilos para telas menores que 600px */
+}
+
+/* Media query para telas entre 600px e 900px */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    /* Estilos para telas entre 600px e 900px */
+}
+
+/* Media query para telas maiores que 900px */
+@media only screen and (min-width: 900px) {
+    /* Estilos para telas maiores que 900px */
+}
